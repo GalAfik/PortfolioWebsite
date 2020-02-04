@@ -78,3 +78,9 @@ p {
 
   max-height: 8em !important;
 }
+
+.creature-img {
+  max-width: 18%;
+  position: absolute;
+  z-index: 1;
+}
