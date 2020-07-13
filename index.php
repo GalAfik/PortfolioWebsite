@@ -386,6 +386,42 @@
 
   <!-- Recent projects -->
 
+  <section class="project-showcase-dark">
+    <div class="project-showcase-text">
+      <h2>Runaway Robot</h2>
+      <p class="lead mb-10">
+        <b>Platform:</b> PC, MacOS, HTML5
+        <b>Engine:</b> Unity <br/>
+        <b>Genre:</b> Puzzle
+      <p>
+      <p class="lead mb-5">
+        Help these little robots find their way in the world. Test your smarts in this cute and cuddly robotic adventure! What could go wrong?\n
+        This was my submission for the <a href="https://itch.io/jam/gmtk-2020/rate/699460">GMTK 2020 Game Jam</a>, a 48-hour game making competition. The theme for this year's jam was "Out of Control". This is a short game that can be beaten in under 10 minutes. Please feel free to leave criticism and suggestions for future improvements!
+      </p>
+      <iframe frameborder="0" src="https://itch.io/embed/699460?linkback=true" width="552" height="167"><a href="https://mythosinteractive.itch.io/runaway-robot">Runaway Robot by Mythos Interactive</a></iframe>
+    </div>
+    <div class="row game-screenshots">
+      <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
+        <img class="align-bottom game-capture" src="img/runawayrobot/cover.PNG">
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
+        <img class="align-bottom game-capture" src="img/runawayrobot/Capture.PNG">
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
+        <img class="align-bottom game-capture" src="img/runawayrobot/Capture2.PNG">
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
+        <img class="align-bottom game-capture" src="img/runawayrobot/Capture3.PNG">
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
+        <img class="align-bottom game-capture" src="img/runawayrobot/Capture4.PNG">
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
+        <img class="align-bottom game-capture" src="img/runawayrobot/Capture5.PNG">
+      </div>
+    </div>
+  </section>
+
   <section id="terminal-charge" class="project-showcase">
     <div class="project-showcase-text">
       <h2>Terminal Charge</h2>
@@ -447,6 +483,9 @@
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
         <img class="align-bottom game-capture" src="img/kinokodash/KinokoDashCap3.PNG">
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
+        <img class="align-bottom game-capture" src="img/kinokodash/KinokoDashCap2.PNG">
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
         <img class="align-bottom game-capture" src="img/kinokodash/KinokoDashCap4.PNG">
