@@ -417,7 +417,7 @@
         <img class="align-bottom game-capture" src="img/runawayrobot/Capture4.PNG">
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
-        <img class="align-bottom game-capture" src="img/runawayrobot/Capture5.PNG">
+        <img class="align-bottom game-capture" src="img/runawayrobot/ezgif.com-video-to-gif.gif">
       </div>
     </div>
   </section>
