@@ -18,7 +18,6 @@
 
   <!-- Custom CSS -->
   <link href="css/stylish-portfolio.css" rel="stylesheet">
-  <link href="css/contact.css" rel="stylesheet">
   <link href="css/custom.css" rel="stylesheet">
 
   <!-- set the title -->
@@ -67,7 +66,7 @@
       <h3 class="mb-5">
         <em>Software Engineer | Game Developer</em>
       </h3>
-      <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Who am I?</a>
+      <a class="btn btn-primary btn-xl js-scroll-trigger" href="#internal-medicine">My latest project!</a>
     </div>
     <div class="overlay"></div>
   </header>
@@ -87,7 +86,7 @@
         <div class="col-lg-10 mx-auto">
           <h2>Find out more about my qualifications by downloading my resume below!</h2>
           <p class="lead mb-5">My name is Gal Afik and I am a software developer, game developer, website designer, hardware tinkerer, and graphic artist. I am a junior-mid level engineer with experience in Java, PHP, C#, C++, Python, and more. I am skilled at both back-end, server-side administration, and front-end design and user experience. My main passion is developing games of all types and expanding my ever-growing set of skills! I <b>LOVE</b> to sit down with a good manual or technical book and learn about a new technology or framework. Download my resume below to take a look at my experiences and skills and check out the rest of this site to learn more about my favorite tools, recent projects, and upcoming work!</p>
-          <a class="btn btn-dark btn-xl js-scroll-trigger" href="resume/Gal Afik.pdf" target="_blank">Resume</a>
+          <a class="btn btn-dark btn-xl js-scroll-trigger" href="resources/resume/Gal Afik.pdf" target="_blank">Resume</a>
         </div>
       </div>
     </div>
@@ -114,7 +113,7 @@
             <i class="icon-game-controller"></i>
           </span>
           <h4><strong>Game Design</strong></h4>
-          <p class="text-faded mb-0">I started making my own games in high school! Since then, I have worked on countless unreleased projects using GameMaker Studio, the Unreal Engine (3 and 4), and Unity. Check out some of my latest work below and play my latest game <b><a href="prepare-to-repair" style="color: black;">Prepare To Re-Pair</a></b> at the link below!</p>
+          <p class="text-faded mb-0">I started making my own games in high school! Since then, I have worked on countless unreleased projects using GameMaker Studio, the Unreal Engine (3 and 4), and Unity. Check out some of my latest work below and play my latest game <b><a href="#internal-medicine" style="color: black;">Internal Medicine</a></b> at the link below!</p>
         </div>
 
         <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
@@ -375,9 +374,9 @@
   </section>
 
   <!-- Callout -->
-  <section id="projects" class="callout parallax">
+  <section id="callout" class="callout parallax">
     <div class="container text-center">
-      <h2 class="mx-auto mb-5">Recent Game Projects</h2>
+      <h2 class="mx-auto mb-auto">Recent Game Projects</h2>
     </div>
   </section>
 
@@ -394,7 +393,7 @@
       <p class="lead mb-5">
         Internal Medicine is my submission to the Extra Credits Jam 2020. The theme of the jam was "Take Care". Play as a young professional in the medical industry as she struggles with the taking care of her ailing patients, while attempting to maintain a modicum of sanity. 
       </p>
-      <iframe frameborder="0" src="https://itch.io/embed/738949?linkback=true&amp;bg_color=4b4b4b&amp;fg_color=ffffff&amp;link_color=9aefff&amp;border_color=333333" width="552" height="167"><a href="https://mythosinteractive.itch.io/internal-medicine">Internal Medicine by Mythos Interactive</a></iframe>
+      <iframe frameborder="0" src="https://itch.io/embed/738949?linkback=true&amp;border_width=0&amp;link_color=A41567" width="550" height="165"><a href="https://mythosinteractive.itch.io/internal-medicine">Internal Medicine by Mythos Interactive, GreenTree123</a></iframe>
     </div>
     <div class="row game-screenshots">
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
@@ -432,7 +431,7 @@
       As a new detective on the force, you are just getting your first big cases. The Case of the Deviant Detective puts a new spin on the Noir mystery drama of the early 20th century. Follow the case work of Charlie, a new detective on the force, whose Uncle happens to be a part of the mafia, and needs you to do something for him. Join Charlie as he gets a call from Uncle Frank, calling in the favor of getting you on the force with his connections. 
 
       Are you ready to REWIND the tapes, and set the fate of these suspects?</p>
-      <iframe frameborder="0" src="https://itch.io/embed/722658?linkback=true&amp;bg_color=4e4e4e&amp;fg_color=ffffff&amp;link_color=fa5c5c&amp;border_color=575757" width="552" height="167"><a href="https://mythosinteractive.itch.io/the-deviant-detective">The Case of the Deviant Detective by Mythos Interactive, GreenTree123, Joshua Connor</a></iframe>
+      <iframe frameborder="0" src="https://itch.io/embed/722658?linkback=true&amp;border_width=0&amp;link_color=A41567" width="550" height="165"><a href="https://mythosinteractive.itch.io/the-deviant-detective">The Case of the Deviant Detective by Mythos Interactive, Matthew Hill, GreenTree123, Joshua Connor</a></iframe>
     </div>
     <div class="row game-screenshots">
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
@@ -456,7 +455,7 @@
     </div>
   </section>
 
-  <section class="project-showcase-dark">
+  <section id="runaway-robot" class="project-showcase-dark">
     <div class="project-showcase-text">
       <h2>Runaway Robot</h2>
       <p class="lead mb-10">
@@ -469,7 +468,7 @@
         Help these little robots find their way in the world. Test your smarts in this cute and cuddly robotic adventure! What could go wrong?\n
         This was my submission for the <a href="https://itch.io/jam/gmtk-2020/rate/699460">GMTK 2020 Game Jam</a>, a 48-hour game making competition. The theme for this year's jam was "Out of Control". This is a short game that can be beaten in under 10 minutes. Please feel free to leave criticism and suggestions for future improvements!
       </p>
-      <iframe frameborder="0" src="https://itch.io/embed/699460?linkback=true&amp;bg_color=ffffff&amp;fg_color=222222&amp;link_color=ffa902&amp;border_color=4f4f4f" width="552" height="167"><a href="https://mythosinteractive.itch.io/runaway-robot">Runaway Robot by Mythos Interactive</a></iframe>
+      <iframe frameborder="0" src="https://itch.io/embed/699460?linkback=true&amp;border_width=0&amp;link_color=A41567" width="550" height="165"><a href="https://mythosinteractive.itch.io/runaway-robot">Runaway Robot by Mythos Interactive</a></iframe>
     </div>
     <div class="row game-screenshots">
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
@@ -505,7 +504,7 @@
       <h4><b><i>Ludum Dare 46: Ranked 168th (of 3576) in Innovation</i></b></h4>
       <p class="lead mb-5">"Terminal Charge" is my submission to the <a href="https://ldjam.com/events/ludum-dare/46/terminal-charge">Ludum Dare 46</a> game jam, whose theme was "Keep It Alive". This game was designed and built from the ground up in 72 hours. In "Terminal Charge", players take on the role of a desperate air-traveler as they zig zag through a busy airport while attempting to reach their gate and keep their phone alive. Rush from outlet to outlet and evade your fellow pedestrians as you make your way to your gate. But beware, gate changes are frequent and this airport was built by a madman! The game is available to download now via Google Drive and play in your browser via <a href="https://www.newgrounds.com/portal/view/753120" target="_blank">Newgrounds</a> and <a href="https://www.kongregate.com/games/GalAfik/terminal-charge" target="_blank">Kongregate</a>.</p>
       <p class="lead mb-5">Please note that this game was not optimized for smaller screens. Some user interface elements may appear cut-off or out of scale on smaller devices.</p>
-      <iframe frameborder="0" src="https://itch.io/embed/620604?linkback=true&amp;bg_color=ddebee&amp;fg_color=000000&amp;link_color=7bb4dc&amp;border_color=bebebe" width="552" height="167"><a href="https://mythosinteractive.itch.io/terminal-charge">Terminal Charge by Mythos Interactive</a></iframe>
+      <iframe frameborder="0" src="https://itch.io/embed/620604?linkback=true&amp;border_width=0&amp;link_color=A41567" width="550" height="165"><a href="https://mythosinteractive.itch.io/terminal-charge">Terminal Charge by Mythos Interactive</a></iframe>
     </div>
     <div class="row game-screenshots">
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
@@ -529,7 +528,7 @@
     </div>
   </section>
 
-  <section class="project-showcase-dark">
+  <section id="kinoko-dash" class="project-showcase-dark">
     <div class="project-showcase-text">
       <h2>Kinoko Dash</h2>
       <p class="lead mb-10">
@@ -539,7 +538,7 @@
         <b>Features:</b> Full-featured store release<br/>
       </p>
       <p class="lead mb-5">Kinoko Dash is a fast-paced, action-packed casual mobile game that tasks players with slaying a horde of incoming mushroom creatures and using their succulant bodies to concoct delicious recipes!</p>
-      <iframe frameborder="0" src="https://itch.io/embed/710325?linkback=true&amp;bg_color=e0e0e0&amp;fg_color=222222&amp;link_color=c10d0d&amp;border_color=7b7b7b" width="552" height="167"><a href="https://mythosinteractive.itch.io/kinoko-dash">Kinoko Dash by Mythos Interactive</a></iframe>
+      <iframe frameborder="0" src="https://itch.io/embed/710325?linkback=true&amp;border_width=0&amp;link_color=A41567" width="550" height="165"><a href="https://mythosinteractive.itch.io/kinoko-dash">Kinoko Dash by Mythos Interactive</a></iframe>
     </div>
     <div class="row game-screenshots">
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
@@ -573,7 +572,7 @@
         <b>Features:</b> Local co-op <br/>
       </p>
       <p class="lead mb-5">"Prepare to Re-Pair!" is the story of two lonely magnets, lost in the world and searching for love. Players will race against the clock to reach their electrically charged buddies! Navigate mazes and solve puzzles to find your pair "re-pair" your friendship! This game was made using the Unity game engine in 48 hours during Global Game Jam 2020, hosted by Imangi Studios. The game can be played through the GGJ site at the link below. Check it out!</p>
-      <iframe frameborder="0" src="https://itch.io/embed/734137?bg_color=ffffff&amp;fg_color=222222&amp;link_color=fb922b&amp;border_color=cccccc" width="552" height="167"><a href="https://mythosinteractive.itch.io/prepare-to-re-pair">Prepare to Re-Pair by Mythos Interactive</a></iframe>
+      <iframe frameborder="0" src="https://itch.io/embed/734137?linkback=true&amp;border_width=0&amp;link_color=A41567" width="550" height="165"><a href="https://mythosinteractive.itch.io/prepare-to-re-pair">Prepare to Re-Pair by Mythos Interactive</a></iframe>
     </div>
     <div class="row game-screenshots">
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
@@ -597,7 +596,7 @@
     </div>
   </section>
 
-  <section class="project-showcase-dark">
+  <section id="chicken-game" class="project-showcase-dark">
     <div class="project-showcase-text">
       <h2>Unnamed Chicken Game</h2>
       <p class="lead mb-10">
@@ -630,7 +629,7 @@
     </div>
   </section>
 
-  <section class="project-showcase">
+  <section id="stars" class="project-showcase">
     <div class="project-showcase-text">
       <h2>Stars: Transmission</h2>
       <p class="lead mb-10">
@@ -640,7 +639,7 @@
         <b>Features:</b> Local co-op (up to 4 players!) <br/>
       </p>
       <p class="lead mb-5">While not incredibly impressive, technologically speaking, "Stars: Transmission" was the first game I made. This 1 to 4 player puzzle game was made in Game Maker all the way back in 2007 and was my very first introduction to the world of game design. All art assets, programming, and design work was done by me and it is a wonderful example of how far I've come in my game dev journey! Feel free to download the executable below and give it a try but, fair warning, you'll want to turn down your headphones!</p>
-      <a class="btn btn-primary btn-xl js-scroll-trigger" href="games/stars.exe">Download</a>
+      <a class="btn btn-primary btn-xl js-scroll-trigger" href="resources/games/stars.exe">Download</a>
     </div>
     <div class="row game-screenshots">
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
@@ -664,7 +663,7 @@
     </div>
   </section>
 
-  <section class="project-showcase-dark">
+  <section id="ingenuity" class="project-showcase-dark">
     <div class="project-showcase-text">
       <h2>Ingenuity: A Game for "Clever" People</h2>
       <p class="lead mb-10">
@@ -751,8 +750,8 @@
   <section class="content-section bg-primary text-white">
     <div class="container text-center">
       <h2 class="mb-4">Did you miss my resume way up at the top? No worries, grab a copy now!</h2>
-      <a href="resume/Gal Afik.docx" target="_blank" class="btn btn-xl btn-light mr-4">.DOCX</a>
-      <a href="resume/Gal Afik.pdf" target="_blank" class="btn btn-xl btn-dark">.PDF</a>
+      <a href="resources/resume/Gal Afik.docx" target="_blank" class="btn btn-xl btn-light mr-4">.DOCX</a>
+      <a href="resources/resume/Gal Afik.pdf" target="_blank" class="btn btn-xl btn-dark">.PDF</a>
     </div>
   </section>
 
