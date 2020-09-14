@@ -2,34 +2,27 @@
 <html lang="en">
 
 <head>
-
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-
+  <!-- Metadata -->
+  <title>Gal Afik</title>
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+  <meta name="description" content="This is Gal Afik's official portolio. Please use the information contained within to evaluate my skills for potential positions.">
+  <meta name="author" content="Gal Afik">
   <!-- Bootstrap Core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
   <!-- Custom Fonts -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
   <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
-
   <!-- Custom CSS -->
   <link href="css/stylish-portfolio.css" rel="stylesheet">
   <link href="css/custom.css" rel="stylesheet">
-
-  <!-- set the title -->
-  <title>Gal Afik - Software Developer</title>
-  <!-- set the favicon -->
-  <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
-
 </head>
 
 <body id="page-top">
 
-  <!-- Navigation -->
+  <!-- Navbar -->
   <a class="menu-toggle rounded" href="#">
     <i class="fas fa-bars"></i>
   </a>
@@ -39,22 +32,25 @@
         <a class="js-scroll-trigger" href="#page-top">Where to?</a>
       </li>
       <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#about">Experience</a>
+        <a class="js-scroll-trigger" href="#about">About Me</a>
       </li>
       <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#services">Skills</a>
+        <a class="js-scroll-trigger" href="#skills">Skills</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#experience">Experience</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#applications">Applications</a>
       </li>
       <li class="sidebar-nav-item">
         <a class="js-scroll-trigger" href="#projects">Projects</a>
       </li>
       <li class="sidebar-nav-item">
-        <a href="https://github.com/GalAfik" target="_blank">GitHub</a>
+        <a href="https://github.com/GalAfik" target="_blank">My GitHub</a>
       </li>
       <li class="sidebar-nav-item">
-        <a href="https://www.linkedin.com/in/galafik/" target="_blank">LinkedIn</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#page-top">Back to the top!</a>
+        <a href="https://www.linkedin.com/in/galafik/" target="_blank">My LinkedIn</a>
       </li>
     </ul>
   </nav>
@@ -73,8 +69,11 @@
 
   <!-- About -->
   <section class="content-section bg-light" id="about">
-
     <div class="container text-center">
+      <div class="content-section-heading">
+        <h3 class="text-secondary mb-0">Welcome!</h3>
+        <h2 class="mb-5">About Me</h2>
+      </div>
       <div class="row">
         <div class="col-lg-10 mx-auto">
           <img class="certification-badge" src="img/certifications/c++.png">
@@ -92,12 +91,12 @@
     </div>
   </section>
 
-  <!-- Services -->
+  <!-- Skills -->
   <section class="content-section bg-primary text-white text-center" id="services">
     <div class="container">
       <div class="content-section-heading">
-        <h3 class="text-secondary mb-0">What do I do?</h3>
-        <h2 class="mb-5">My Main Specialties</h2>
+        <h3 class="text-secondary mb-0">My specialties</h3>
+        <h2 class="mb-5">Skills</h2>
       </div>
       <div class="row">
         <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
@@ -135,235 +134,90 @@
     </div>
   </section>
 
-  <div class="box">
+  <!-- Experience -->
+  <section class="content-section bg-light" id="experience">
     <div class="container">
       <div class="content-section-heading">
-        <h3 class="text-secondary mb-0">What tools do I use?</h3>
-        <h2 class="mb-5">Skills and Applications</h2>
-        <p class="mb-0">While I tend to use different tools for different jobs, the following tend to be my favorites for specific tasks. Rest assured that this is not a comprehensive list! Yes, I know how to use Microsoft Office, but who wants to hear about that?</p>
+        <h3 class="text-secondary mb-0">What have I done?</h3>
+        <h2 class="mb-5">Professional Experience</h2>
       </div>
 
       <div class="row">
-
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-          <div class="box-part text-center">
-            <img class="skills-images" src="img/skills/AndroidStudio.png">
-            <div class="title">
-              <h4>Android Studio</h4>
-            </div>
-            <div class="text">
-              <span>I have used Android Studio for most of my application development on the Android system, though I prefer to do my game development using the Corona SDK Engine.</span>
-            </div>
-          </div>
-        </div>   
-
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-          <div class="box-part text-center">
-            <img class="skills-images" src="img/skills/Arduino.png">
-            <div class="title">
-              <h4>Arduino</h4>
-            </div>
-            <div class="text">
-              <span>I use Arduino boards for my hardware development and hackathon projects! I have built both a <b><a href="https://devpost.com/software/picsnap" target="_blank">Camera glove</a></b> and <b>Mobility GPS system</b> for the visually impaired using Arduino hardware and it was some of my best work!</span>
-            </div>
-          </div>
-        </div>   
-
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-          <div class="box-part text-center">
-            <img class="skills-images" src="img/skills/versioning.png">
-            <div class="title">
-              <h4>GitHub and BitBucket</h4>
-            </div>
-            <div class="text">
-              <span>I use BitBucket for my professional work on a daily basis, although most of my personal work is versioned using GitHub. When it comes to version control, I'm kind of an "expert".</span>
-            </div>
-          </div>
-        </div>   
-
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-          <div class="box-part text-center">
-            <img class="skills-images" src="img/skills/Bootstrap.png">
-            <div class="title">
-              <h4>Bootstrap</h4>
-            </div>
-            <div class="text">
-              <span>I use either Twitter Bootstrap or Zurb Foundation for all of my web development work! In fact, this very site was made using Bootstrap. Isn't that neat?</span>
-            </div>
-          </div>
-        </div>   
-
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-          <div class="box-part text-center">
-            <img class="skills-images" src="img/skills/Cura.png">
-            <div class="title">
-              <h4>Ultimaker Cura</h4>
-            </div>
-            <div class="text">
-              <span>Cura is 3D slicing software that I use to prepare my 3D sculpts for printing on my Ender 3 printer. It may be a bit loud, but I love it!</span>
-            </div>
-          </div>
-        </div>   
-
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-          <div class="box-part text-center">
-            <img class="skills-images" src="img/skills/Drupal.png">
-            <div class="title">
-              <h4>Drupal</h4>
-            </div>
-            <div class="text">
-              <span>While interning for <a href="https://www.mindgrub.com/" target="_blank">Mindgrub</a> in college, I learned to work with Drupal as a Content Management System and have used it both professionally during my time at <a href="https://www.quotient-inc.com/" target="_bla">Quotient Inc.</a> and for any family friend who needs a new large-scale website!</span>
-            </div>
-          </div>
+        <div class="col-lg-3 mx-auto">
+          <img class="company-logo" src="img/companies/Mythos.png">
         </div>
-
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-          <div class="box-part text-center">
-            <img class="skills-images" src="img/skills/GameMakerStudio.png">
-            <div class="title">
-              <h4>GameMaker Studio</h4>
-            </div>
-            <div class="text">
-              <span>Ah, GameMaker. My very first game engine. I learned to use GameMaker in high school and was asked to teach my very first Game Design course that very same year! I have since taught countless courses in game design and development using GameMaker to students K-12!</span>
-            </div>
-          </div>
+        <div class="col-lg-9 mx-auto">
+          <h2>Mythos Interactive</h2>
+          <h4 class="position-title">Founder • Mar 2019 - Present</h4>
+          <ul>
+            <li>Developed games that received the Editor’s Choice award from Simmer.io and placed 3rd in Brackeys Game Jam.</li>
+            <li>Design and implement user-interfaces, sound systems, graphics renderers, and gameplay mechanics.</li>
+            <li>Manage and lead a group of designers, producers, and testers in creating small-scale projects.</li>
+          </ul>
         </div>
+      </div>
 
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-          <div class="box-part text-center">
-            <img class="skills-images" src="img/skills/GIMP.jpg">
-            <div class="title">
-              <h4>GIMP</h4>
-            </div>
-            <div class="text">
-              <span>I use GIMP for much of my graphic design work. It's a lightweight alternative to Photoshop when I don't have my drawing tablet with me, and it gets the job done quick!</span>
-            </div>
-          </div>
+      <div class="row">
+        <div class="col-lg-3 mx-auto">
+          <img class="company-logo" src="img/companies/DeutscheBank.png">
         </div>
-
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-          <div class="box-part text-center">
-            <img class="skills-images" src="img/skills/JIRA.png">
-            <div class="title">
-              <h4>JIRA</h4>
-            </div>
-            <div class="text">
-              <span>Atlassian's suite of tools, ranging from Confluence to JIRA is always a handy project management solution for the Scrum Master on the go! I even keep a Confluence page for my personal projects and notes at home!</span>
-            </div>
-          </div>
+        <div class="col-lg-9 mx-auto">
+          <h2>Deutsche Bank</h2>
+          <h4 class="position-title">Software Engineer • Feb 2019 - Present</h4>
+          <ul>
+            <li>Develop and maintain SQL Server Integration services that upkeep critical financial database systems.</li>
+            <li>Enhance and maintain version-control procedures and pipelines for international teams.</li>
+            <li>As Scrum Master, organize ceremonies for an international team based out of the US, London, and India.</li>
+            <li>As Technical Information Security Officer, oversee security-related approvals and inspections.</li>
+            <li>Organize team-engagement events and activities, including a global hackathon event for over 200 participants.</li>
+          </ul>
         </div>
+      </div>
 
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-          <div class="box-part text-center">
-            <img class="skills-images" src="img/skills/jQuery.png">
-            <div class="title">
-              <h4>JQuery</h4>
-            </div>
-            <div class="text">
-              <span>jQuery is a handy framework that I picked up during my stint as a front-end web designer at <b>ECOMPEX</b> and I've grown to love it since. It's a very handy tool for any web dev serious about their work!</span>
-            </div>
-          </div>
+      <div class="row">
+        <div class="col-lg-3 mx-auto">
+          <img class="company-logo" src="img/companies/Zaniac.png">
         </div>
-
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-          <div class="box-part text-center">
-            <img class="skills-images" src="img/skills/OracleDeveloper.png">
-            <div class="title">
-              <h4>Oracle Developer</h4>
-            </div>
-            <div class="text">
-              <span>From Oracle, to MySQL, to NoSQL, to PLSQL, I've worked on, around, and through databases the size of which you won't believe. Just ask me about my work with the Smithsonian Institute and <b><a href="https://emammal.si.edu/" target="_blank">Emammal sometime!</a></b></span>
-            </div>
-          </div>
+        <div class="col-lg-9 mx-auto">
+          <h2>Zaniac Learning</h2>
+          <h4 class="position-title">Campus Coordinator • Sep 2018 - Feb 2019</h4>
+          <ul>
+            <li>Instructed students (K-8) in STEM-based programs including Java, Python, and Game Design.</li>
+            <li>Supervised 15 instructors and over 30 students on a daily basis with a focus on campus efficiency and safety.</li>
+          </ul>
         </div>
+      </div>
 
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-          <div class="box-part text-center">
-            <img class="skills-images" src="img/skills/Photoshop.jpg">
-            <div class="title">
-              <h4>Photoshop</h4>
-            </div>
-            <div class="text">
-              <span>Photoshop was the first, and most powerful tool for graphic design and art that I learned. These days I use it to sketch and paint with my Huion Kamvas drawing tablet when I want to relax.</span>
-            </div>
-          </div>
+      <div class="row">
+        <div class="col-lg-3 mx-auto">
+          <img class="company-logo" id="quotient-logo" src="img/companies/Quotient.png">
         </div>
-
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-          <div class="box-part text-center">
-            <img class="skills-images" src="img/skills/SQLDeveloper.png">
-            <div class="title">
-              <h4>MS SQL Server</h4>
-            </div>
-            <div class="text">
-              <span>I use Microsoft's SQL Server Management Studio daily as a software engineer at <b>Deutsch Bank</b>. Database administration, while not glamorous, it always important!</span>
-            </div>
-          </div>
+        <div class="col-lg-9 mx-auto">
+          <h2>Quotient, Inc.</h2>
+          <h4 class="position-title">Associate Developer • May 2016 - May 2018</h4>
+          <ul>
+            <li>Developed various internal Java and PHP applications that integrated with a custom NoSQL (json) database including a database management system that controlled Smithsonian Inst. proprietary artifact records data.</li>
+            <li>Created a fully customizable interactive education and training center for site users and project volunteers.</li>
+            <li>Designed and implemented content management interfaces for interactive museum exhibits.  </li>
+          </ul>
         </div>
+      </div>
 
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-          <div class="box-part text-center">
-            <img class="skills-images" src="img/skills/Trello.png">
-            <div class="title">
-              <h4>Trello</h4>
-            </div>
-            <div class="text">
-              <span>I actually use Trello in my personal life much more than I do professionally! I love my lists. Please don't take my lists away. I <i>need</i> them.</span>
-            </div>
-          </div>
+      <div class="row">
+        <div class="col-lg-3 mx-auto">
+          <img class="company-logo" src="img/companies/Mindgrub.png">
         </div>
-
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-          <div class="box-part text-center">
-            <img class="skills-images" src="img/skills/Unity.png">
-            <div class="title">
-              <h4>Unity</h4>
-            </div>
-            <div class="text">
-              <span>Unity is currently my favorite game engine for small scale projects and low processing implementations! While not as robust as other game engines, Unity is very easy to learn and offers a great learning curve for my growing game design journey.</span>
-            </div>
-          </div>
+        <div class="col-lg-9 mx-auto">
+          <h2>Mindgrub Technologies</h2>
+          <h4 class="position-title">Web Development Intern • Jun 2013 - Dec 2013</h4>
+          <ul>
+            <li>Designed a mobile game for Snyder's Pretzels using built-in device accelerometer and gyroscopic sensors.</li>
+            <li>Implemented a mobile application for Polk Audio using an HTML5/JavaScript and a Bluetooth LTE web API that controls wireless speakers and allows users to set up song playlists cooperatively.</li>
+          </ul>
         </div>
-
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-          <div class="box-part text-center">
-            <img class="skills-images" src="img/skills/UnrealEngine.png">
-            <div class="title">
-              <h4>Unreal Engine</h4>
-            </div>
-            <div class="text">
-              <span>Unreal is a beast of a game engine. High resolution textures? Check. Virtual Reality integration? Check. This thing even has physics constraints! What more could I ask for in a game engine, except maybe some better Blueprint notes...</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-          <div class="box-part text-center">
-            <img class="skills-images" src="img/skills/WebDev.png">
-            <div class="title">
-              <h4>HTML, CSS, and JS</h4>
-            </div>
-            <div class="text">
-              <span>The 3 giants of web design. These handy languages have been with me since middle school and I would certainly be nowhere without them! While I try to keep up to date on all of the latest development frameworks, it's always nice to get back to some pure HTML and style things with CSS rather than SASS!</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-          <div class="box-part text-center">
-            <img class="skills-images" src="img/skills/Wordpress.png">
-            <div class="title">
-              <h4>WordPress</h4>
-            </div>
-            <div class="text">
-              <span>While not my favorite Content Management System, I have to recommend WordPress for the ease of use and shallow learning curve. Anyone can use WordPress and that is exactly why I make all of my family's blogs with it. I just build out a basic site and release my aunt to do the rest! In no time, she has a beautiful site for her recipes, and I can rest easy!</span>
-            </div>
-          </div>
-        </div>
-
-      </div>    
+      </div>
     </div>
-  </div>
+  </section>
 
   <!-- Shout out -->
   <section class="content-section bg-primary text-white">
@@ -373,10 +227,52 @@
     </div>
   </section>
 
+  <div class="box" id="applications">
+    <div class="container">
+      <div class="content-section-heading">
+        <h3 class="text-secondary mb-0">What tools do I use?</h3>
+        <h2 class="mb-5">Applications</h2>
+        <p class="mb-0">The following games engines are the cornerstones of many of my projects. While I have intermediate mastery over many of their features, I always strive to expand my knowledge and aquire new skills as I grow. Many of my latest projects using these engines can be found <a class="js-scroll-trigger" href="#projects">below!</a></p>
+      </div>
+
+      <div class="row"> 
+
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+          <div class="box-part text-center">
+            <img class="skills-images" src="img/skills/Unity.png">
+            <div class="text">
+              <span>I have experience developing various projects using the Unity Engine. My range of experience with the engine spans everything from design to publication. I am experienced with both the backend C# architechture of Unity and its front-facing design tools such as Shader Graph, Particle Graph, and ProBuilder.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+          <div class="box-part text-center">
+            <img class="skills-images" src="img/skills/UnrealEngine.png">
+            <div class="text">
+              <span>Unreal has been my latest passion project. I am currently developing various projects using the Unreal Engine, both using C++ and the Blueprints scripting language. I have some exposure to Unreal's Virtual Reality tools as well.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+          <div class="box-part text-center">
+            <img class="skills-images" src="img/skills/GameMakerStudio.png">
+            <div class="text">
+              <span>GameMaker has been a favorite tool of mine for many years. I have built many games in this engine and have taught multiple courses in the fundumentals of game design, logic, and even mathematics, all using GameMaker Studio and its predecessors.</span>
+            </div>
+          </div>
+        </div>
+
+      </div>    
+    </div>
+  </div>
+
   <!-- Callout -->
-  <section id="callout" class="callout parallax">
+  <section id="projects" class="callout parallax">
     <div class="container text-center">
-      <h2 class="mx-auto mb-auto">Recent Game Projects</h2>
+      <h3 class="text-secondary mb-0">What am I up to?</h3>
+      <h2 class="mx-auto mb-auto">Projects</h2>
     </div>
   </section>
 
@@ -393,26 +289,26 @@
       <p class="lead mb-5">
         Internal Medicine is my submission to the Extra Credits Jam 2020. The theme of the jam was "Take Care". Play as a young professional in the medical industry as she struggles with the taking care of her ailing patients, while attempting to maintain a modicum of sanity. 
       </p>
-      <iframe frameborder="0" src="https://itch.io/embed/738949?linkback=true&amp;border_width=0&amp;link_color=A41567" width="550" height="165"><a href="https://mythosinteractive.itch.io/internal-medicine">Internal Medicine by Mythos Interactive, GreenTree123</a></iframe>
+      <iframe frameborder="0" src="https://itch.io/embed/738949?linkback=true&amp;border_width=0&amp;bg_color=343A40&amp;fg_color=ffffff&amp;link_color=A41567&amp;border_color=666666" width="550" height="165"><a href="https://mythosinteractive.itch.io/internal-medicine">Internal Medicine by Mythos Interactive, GreenTree123</a></iframe>
     </div>
     <div class="row game-screenshots">
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
-        <img class="align-bottom game-capture" src="img/PublishedGames/InternalMedicine/cover.png">
+        <img class="align-bottom game-capture" src="img/published-games/InternalMedicine/cover.png">
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
-        <img class="align-bottom game-capture" src="img/PublishedGames/InternalMedicine/1.png">
+        <img class="align-bottom game-capture" src="img/published-games/InternalMedicine/1.png">
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
-        <img class="align-bottom game-capture" src="img/PublishedGames/InternalMedicine/2.png">
+        <img class="align-bottom game-capture" src="img/published-games/InternalMedicine/2.png">
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
-        <img class="align-bottom game-capture" src="img/PublishedGames/InternalMedicine/3.png">
+        <img class="align-bottom game-capture" src="img/published-games/InternalMedicine/3.png">
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
-        <img class="align-bottom game-capture" src="img/PublishedGames/InternalMedicine/4.png">
+        <img class="align-bottom game-capture" src="img/published-games/InternalMedicine/4.png">
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
-        <img class="align-bottom game-capture" src="img/PublishedGames/InternalMedicine/5.png">
+        <img class="align-bottom game-capture" src="img/published-games/InternalMedicine/5.png">
       </div>
     </div>
   </section>
@@ -435,22 +331,22 @@
     </div>
     <div class="row game-screenshots">
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
-        <img class="align-bottom game-capture" src="img/PublishedGames/DeviantDetective/cover.png">
+        <img class="align-bottom game-capture" src="img/published-games/DeviantDetective/cover.png">
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
-        <img class="align-bottom game-capture" src="img/PublishedGames/DeviantDetective/1.png">
+        <img class="align-bottom game-capture" src="img/published-games/DeviantDetective/1.png">
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
-        <img class="align-bottom game-capture" src="img/PublishedGames/DeviantDetective/2.png">
+        <img class="align-bottom game-capture" src="img/published-games/DeviantDetective/2.png">
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
-        <img class="align-bottom game-capture" src="img/PublishedGames/DeviantDetective/3.png">
+        <img class="align-bottom game-capture" src="img/published-games/DeviantDetective/3.png">
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
-        <img class="align-bottom game-capture" src="img/PublishedGames/DeviantDetective/4.png">
+        <img class="align-bottom game-capture" src="img/published-games/DeviantDetective/4.png">
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
-        <img class="align-bottom game-capture" src="img/PublishedGames/DeviantDetective/5.gif">
+        <img class="align-bottom game-capture" src="img/published-games/DeviantDetective/5.gif">
       </div>
     </div>
   </section>
@@ -468,26 +364,26 @@
         Help these little robots find their way in the world. Test your smarts in this cute and cuddly robotic adventure! What could go wrong?\n
         This was my submission for the <a href="https://itch.io/jam/gmtk-2020/rate/699460">GMTK 2020 Game Jam</a>, a 48-hour game making competition. The theme for this year's jam was "Out of Control". This is a short game that can be beaten in under 10 minutes. Please feel free to leave criticism and suggestions for future improvements!
       </p>
-      <iframe frameborder="0" src="https://itch.io/embed/699460?linkback=true&amp;border_width=0&amp;link_color=A41567" width="550" height="165"><a href="https://mythosinteractive.itch.io/runaway-robot">Runaway Robot by Mythos Interactive</a></iframe>
+      <iframe frameborder="0" src="https://itch.io/embed/699460?linkback=true&amp;border_width=0&amp;bg_color=343A40&amp;fg_color=ffffff&amp;link_color=A41567&amp;border_color=666666" width="550" height="165"><a href="https://mythosinteractive.itch.io/runaway-robot">Runaway Robot by Mythos Interactive</a></iframe>
     </div>
     <div class="row game-screenshots">
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
-        <img class="align-bottom game-capture" src="img/PublishedGames/RunawayRobot/cover.png">
+        <img class="align-bottom game-capture" src="img/published-games/RunawayRobot/cover.png">
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
-        <img class="align-bottom game-capture" src="img/PublishedGames/RunawayRobot/1.png">
+        <img class="align-bottom game-capture" src="img/published-games/RunawayRobot/1.png">
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
-        <img class="align-bottom game-capture" src="img/PublishedGames/RunawayRobot/2.png">
+        <img class="align-bottom game-capture" src="img/published-games/RunawayRobot/2.png">
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
-        <img class="align-bottom game-capture" src="img/PublishedGames/RunawayRobot/3.png">
+        <img class="align-bottom game-capture" src="img/published-games/RunawayRobot/3.png">
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
-        <img class="align-bottom game-capture" src="img/PublishedGames/RunawayRobot/4.png">
+        <img class="align-bottom game-capture" src="img/published-games/RunawayRobot/4.png">
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
-        <img class="align-bottom game-capture" src="img/PublishedGames/RunawayRobot/5.gif">
+        <img class="align-bottom game-capture" src="img/published-games/RunawayRobot/5.gif">
       </div>
     </div>
   </section>
@@ -508,22 +404,22 @@
     </div>
     <div class="row game-screenshots">
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
-        <img class="align-bottom game-capture" src="img/PublishedGames/TerminalCharge/cover.png">
+        <img class="align-bottom game-capture" src="img/published-games/TerminalCharge/cover.png">
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
-        <img class="align-bottom game-capture" src="img/PublishedGames/TerminalCharge/1.png">
+        <img class="align-bottom game-capture" src="img/published-games/TerminalCharge/1.png">
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
-        <img class="align-bottom game-capture" src="img/PublishedGames/TerminalCharge/2.png">
+        <img class="align-bottom game-capture" src="img/published-games/TerminalCharge/2.png">
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
-        <img class="align-bottom game-capture" src="img/PublishedGames/TerminalCharge/3.png">
+        <img class="align-bottom game-capture" src="img/published-games/TerminalCharge/3.png">
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
-        <img class="align-bottom game-capture" src="img/PublishedGames/TerminalCharge/4.png">
+        <img class="align-bottom game-capture" src="img/published-games/TerminalCharge/4.png">
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
-        <img class="align-bottom game-capture" src="img/PublishedGames/TerminalCharge/5.png">
+        <img class="align-bottom game-capture" src="img/published-games/TerminalCharge/5.png">
       </div>
     </div>
   </section>
@@ -538,26 +434,26 @@
         <b>Features:</b> Full-featured store release<br/>
       </p>
       <p class="lead mb-5">Kinoko Dash is a fast-paced, action-packed casual mobile game that tasks players with slaying a horde of incoming mushroom creatures and using their succulant bodies to concoct delicious recipes!</p>
-      <iframe frameborder="0" src="https://itch.io/embed/710325?linkback=true&amp;border_width=0&amp;link_color=A41567" width="550" height="165"><a href="https://mythosinteractive.itch.io/kinoko-dash">Kinoko Dash by Mythos Interactive</a></iframe>
+      <iframe frameborder="0" src="https://itch.io/embed/710325?linkback=true&amp;border_width=0&amp;bg_color=343A40&amp;fg_color=ffffff&amp;link_color=A41567&amp;border_color=666666" width="550" height="165"><a href="https://mythosinteractive.itch.io/kinoko-dash">Kinoko Dash by Mythos Interactive</a></iframe>
     </div>
     <div class="row game-screenshots">
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
-        <img class="align-bottom game-capture" src="img/PublishedGames/KinokoDash/cover.png">
+        <img class="align-bottom game-capture" src="img/published-games/KinokoDash/cover.png">
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
-        <img class="align-bottom game-capture" src="img/PublishedGames/KinokoDash/1.png">
+        <img class="align-bottom game-capture" src="img/published-games/KinokoDash/1.png">
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
-        <img class="align-bottom game-capture" src="img/PublishedGames/KinokoDash/2.png">
+        <img class="align-bottom game-capture" src="img/published-games/KinokoDash/2.png">
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
-        <img class="align-bottom game-capture" src="img/PublishedGames/KinokoDash/3.png">
+        <img class="align-bottom game-capture" src="img/published-games/KinokoDash/3.png">
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
-        <img class="align-bottom game-capture" src="img/PublishedGames/KinokoDash/4.png">
+        <img class="align-bottom game-capture" src="img/published-games/KinokoDash/4.png">
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
-        <img class="align-bottom game-capture" src="img/PublishedGames/KinokoDash/5.png">
+        <img class="align-bottom game-capture" src="img/published-games/KinokoDash/5.png">
       </div>
     </div>
   </section>
@@ -576,22 +472,22 @@
     </div>
     <div class="row game-screenshots">
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
-        <img class="align-bottom game-capture" src="img/PublishedGames/PrepareToRePair/cover.png">
+        <img class="align-bottom game-capture" src="img/published-games/PrepareToRePair/cover.png">
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
-        <img class="align-bottom game-capture" src="img/PublishedGames/PrepareToRePair/1.png">
+        <img class="align-bottom game-capture" src="img/published-games/PrepareToRePair/1.png">
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
-        <img class="align-bottom game-capture" src="img/PublishedGames/PrepareToRePair/2.png">
+        <img class="align-bottom game-capture" src="img/published-games/PrepareToRePair/2.png">
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
-        <img class="align-bottom game-capture" src="img/PublishedGames/PrepareToRePair/3.png">
+        <img class="align-bottom game-capture" src="img/published-games/PrepareToRePair/3.png">
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
-        <img class="align-bottom game-capture" src="img/PublishedGames/PrepareToRePair/4.png">
+        <img class="align-bottom game-capture" src="img/published-games/PrepareToRePair/4.png">
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
-        <img class="align-bottom game-capture" src="img/PublishedGames/PrepareToRePair/5.gif">
+        <img class="align-bottom game-capture" src="img/published-games/PrepareToRePair/5.gif">
       </div>
     </div>
   </section>
@@ -609,22 +505,22 @@
     </div>
     <div class="row game-screenshots">
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
-        <img class="align-bottom game-capture" src="img/UnpublishedGames/ChickenGame/1.png">
+        <img class="align-bottom game-capture" src="img/unpublished-games/ChickenGame/1.png">
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
-        <img class="align-bottom game-capture" src="img/UnpublishedGames/ChickenGame/2.png">
+        <img class="align-bottom game-capture" src="img/unpublished-games/ChickenGame/2.png">
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
-        <img class="align-bottom game-capture" src="img/UnpublishedGames/ChickenGame/3.png">
+        <img class="align-bottom game-capture" src="img/unpublished-games/ChickenGame/3.png">
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
-        <img class="align-bottom game-capture" src="img/UnpublishedGames/ChickenGame/4.png">
+        <img class="align-bottom game-capture" src="img/unpublished-games/ChickenGame/4.png">
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
-        <img class="align-bottom game-capture" src="img/UnpublishedGames/ChickenGame/5.png">
+        <img class="align-bottom game-capture" src="img/unpublished-games/ChickenGame/5.png">
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
-        <img class="align-bottom game-capture" src="img/UnpublishedGames/ChickenGame/6.png">
+        <img class="align-bottom game-capture" src="img/unpublished-games/ChickenGame/6.png">
       </div>
     </div>
   </section>
@@ -643,22 +539,22 @@
     </div>
     <div class="row game-screenshots">
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
-        <img class="align-bottom game-capture" src="img/UnpublishedGames/Stars/1.png">
+        <img class="align-bottom game-capture" src="img/unpublished-games/Stars/1.png">
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
-        <img class="align-bottom game-capture" src="img/UnpublishedGames/Stars/2.png">
+        <img class="align-bottom game-capture" src="img/unpublished-games/Stars/2.png">
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
-        <img class="align-bottom game-capture" src="img/UnpublishedGames/Stars/3.png">
+        <img class="align-bottom game-capture" src="img/unpublished-games/Stars/3.png">
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
-        <img class="align-bottom game-capture" src="img/UnpublishedGames/Stars/4.png">
+        <img class="align-bottom game-capture" src="img/unpublished-games/Stars/4.png">
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
-        <img class="align-bottom game-capture" src="img/UnpublishedGames/Stars/5.png">
+        <img class="align-bottom game-capture" src="img/unpublished-games/Stars/5.png">
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
-        <img class="align-bottom game-capture" src="img/UnpublishedGames/Stars/6.png">
+        <img class="align-bottom game-capture" src="img/unpublished-games/Stars/6.png">
       </div>
     </div>
   </section>
@@ -675,22 +571,22 @@
     </div>
     <div class="row game-screenshots">
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
-        <img class="align-bottom game-capture" src="img/UnpublishedGames/Ingenuity/1.png">
+        <img class="align-bottom game-capture" src="img/unpublished-games/Ingenuity/1.png">
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
-        <img class="align-bottom game-capture" src="img/UnpublishedGames/Ingenuity/2.png">
+        <img class="align-bottom game-capture" src="img/unpublished-games/Ingenuity/2.png">
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
-        <img class="align-bottom game-capture" src="img/UnpublishedGames/Ingenuity/3.jpg">
+        <img class="align-bottom game-capture" src="img/unpublished-games/Ingenuity/3.jpg">
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
-        <img class="align-bottom game-capture" src="img/UnpublishedGames/Ingenuity/4.jpg">
+        <img class="align-bottom game-capture" src="img/unpublished-games/Ingenuity/4.jpg">
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
-        <img class="align-bottom game-capture" src="img/UnpublishedGames/Ingenuity/5.jpg">
+        <img class="align-bottom game-capture" src="img/unpublished-games/Ingenuity/5.jpg">
       </div>
       <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
-        <img class="align-bottom game-capture" src="img/UnpublishedGames/Ingenuity/6.jpg">
+        <img class="align-bottom game-capture" src="img/unpublished-games/Ingenuity/6.jpg">
       </div>
     </div>
   </section>
@@ -700,7 +596,8 @@
   <div class="box">
     <div class="container">
       <div class="content-section-heading">
-        <h2 class="mb-5">Shader Work</h2>
+        <h3 class="text-secondary mb-0">Miscellaneous Work</h3>
+        <h2 class="mb-5">Shader Practice</h2>
         <p class="mb-0">Below are a few examples of my recent work with Unity's Shader Graph plug-in. These were built entirely in-engine and are fully customizable using the Unity inspector.</p>
       </div>
       <div class="row">
@@ -786,12 +683,8 @@
 <!-- Bootstrap core JavaScript -->
 <script src="vendor/jquery/jquery.min.js"></script>
 <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<!-- Plugin JavaScript -->
 <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-<!-- Custom scripts for this template -->
-<script src="js/stylish-portfolio.js"></script>
 <script src="js/custom.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
 
 </body>
 </html>

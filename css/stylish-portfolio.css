@@ -213,7 +213,7 @@ h6 {
 
 .callout {
   padding: 10rem 0;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/backgrounds/keyboard.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.8) 100%), url("../img/backgrounds/keyboard.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;

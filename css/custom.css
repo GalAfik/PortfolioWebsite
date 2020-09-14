@@ -45,8 +45,16 @@
 }
 
 .game-screenshots {
-  margin-left: 0;
-  margin-right: 0;
+  margin: 0 0 0 0;
+  padding: 2em 10em 1em;
+}
+
+.project-showcase .game-screenshots {
+  background-color: #DBDBDB;
+}
+
+.project-showcase-dark .game-screenshots {
+  background-color: #202326;
 }
 
 .game-capture {
@@ -60,9 +68,16 @@
 
 .project-showcase {
   padding-top: 5em;
-  padding-bottom: 5em;
   max-width: 100%;
   text-align: center;
+}
+
+.project-showcase-dark {
+  padding-top: 5em;
+  max-width: 100%;
+  text-align: center;
+  background-color: #343A40;
+  color: #fff;
 }
 
 .project-showcase-text {
@@ -70,15 +85,6 @@
   margin-left: 20%;
   margin-right: 20%;
   max-width: 60%;
-}
-
-.project-showcase-dark {
-  padding-top: 5em;
-  padding-bottom: 5em;
-  max-width: 100%;
-  text-align: center;
-  background-color: #343A40;
-  color: #fff;
 }
 
 .project-showcase-dark .btn {
@@ -92,4 +98,26 @@
 
 p {
   font-size: 20px;
+}
+
+.company-logo {
+  max-width: 200px;
+  margin-top: 5em;
+}
+
+#quotient-logo {
+  background-color: #22205F;
+  padding: 1em;
+}
+
+#experience .row {
+  margin: 2em 0 2em 0;
+}
+
+#experience li {
+  font-size: 1.1em;
+}
+
+.position-title {
+  color: gray;
 }
