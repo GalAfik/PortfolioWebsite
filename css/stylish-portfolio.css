@@ -190,6 +190,9 @@ h6 {
   background: rgba(52, 58, 64, 0.5);
   line-height: 50px;
   z-index: 999;
+
+  /*glow*/
+  box-shadow: 0 0 1em .5em rgba(255, 255, 255, .4);
 }
 
 .menu-toggle:focus, .menu-toggle:hover {
@@ -293,7 +296,6 @@ h6 {
 }
 
 footer.footer {
-  padding-top: 5rem;
   padding-bottom: 5rem;
 }
 
@@ -309,7 +311,7 @@ footer.footer .social-link {
 }
 
 footer.footer .social-link:hover {
-  background-color: #407CDA;
+  background-color: #c25b96;
   text-decoration: none;
 }
 
@@ -318,7 +320,7 @@ a {
 }
 
 a:hover, a:focus, a:active {
-  color: #407CDA;
+  color: #c25b96;
 }
 
 .btn-primary {
@@ -328,8 +330,8 @@ a:hover, a:focus, a:active {
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #407CDA !important;
-  border-color: #407CDA !important;
+  background-color: #c25b96 !important;
+  border-color: #c25b96 !important;
 }
 
 .btn-secondary {
