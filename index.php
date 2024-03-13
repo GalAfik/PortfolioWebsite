@@ -62,20 +62,21 @@
       <h3 class="mb-5">
         <em>Software Engineer | Game Developer</em>
       </h3>
-      <a class="btn btn-primary btn-xl" href="resources/resume/Gal Afik.pdf" target="_blank">My Resume</a>
+      <a class="btn btn-primary btn-xl" href="./resources/resume/GalAfik.pdf" target="_blank">My Resume</a>
+      <h3 class="pulse-text"><div class="scroll-text"></div></h3>
     </div>
   </header>
 
   <!-- About -->
   <section class="content-section bg-light" id="about">
-    <div class="container text-center">
+    <div class="container text-center insane-text">
       <div class="content-section-heading">
         <h3 class="text-secondary mb-0">Welcome!</h3>
         <h2 class="mb-5">About Me</h2>
       </div>
       <div class="row">
         <div class="col-lg-10 mx-auto">
-          <p class="lead mb-5">Hi there! I'm Gal. I'm a software and game developer. I also do web design, graphic design, and hardware tinkering. I am certified in <b>C++, Java, and Python</b> and have experience with multiple other langauges. I love acquiring new skills and learning new toolsets! Please check out my professional experience and my latest projects below.</p>
+          <p class="lead mb-5">Hi there! I'm Gal. I'm a game developer. I also do software, web dev, graphic design, and hardware tinkering. I am certified in <b>C++, Java, and Python</b> and have experience with multiple other langauges. I love acquiring new skills and learning new toolsets! Please check out my professional experience and latest projects below.</p>
         </div>
       </div>
     </div>
@@ -85,10 +86,7 @@
   <section class="content-section bg-black" id="video">
     <div class="container center">
       <div class="row">
-        <video width="1140" height="640" controls>
-          <source src="MythosInteractiveTrailer720p.mp4" type="video/mp4">
-          Oops! Something went wrong loading my awesome video. Please reload the page or try another browser.
-        </video>
+        <iframe width="1140" height="640" src="https://www.youtube.com/embed/lC331DLOe4I?si=nD-zgCGqsd7ceLsJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
     </div>
   </section>
@@ -114,11 +112,11 @@
             <i class="icon-game-controller"></i>
           </span>
           <h4><strong>Game Design</strong></h4>
-          <p class="text-faded mb-0">I started making games in high school and have now founded <b><a href="http://www.mythosinteractive.net" target="_blank" style="color: black;">Mythos Interactive</a></b>, an indie studio specializing in GameMaker Studio, Unity, and Unreal. Check out our <b><a class="js-scroll-trigger" href="https://mythosinteractive.itch.io" style="color: black;">latest game</a></b> below!</p>
+          <p class="text-faded mb-0">I started making games in high school and have now founded <b><a href="http://mythosinteractive.itch.io" target="_blank" style="color: black;">Mythos Interactive</a></b>, an indie studio specializing in GameMaker Studio, Unity, and Unreal. Check out our <b><a class="js-scroll-trigger" href="https://mythosinteractive.itch.io/to-the-last" target="_blank" style="color: black;">latest game</a></b> below!</p>
         </div>
 
         <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-          <span class="service-icon rounded-circle mx-auto mb-3">
+          <span class="service-icon rounded-circle mx-auto mb-3 shrink" onclick="(function(){ alert('Why would you click that? Now you broke it. Are you proud of yourself?'); document.querySelectorAll('*').forEach(e => e.classList.add('you-broke-it')); })()">
             <i class="icon-globe"></i>
           </span>
           <h4><strong>Web Development</strong></h4>
@@ -130,7 +128,7 @@
             <i class="icon-pencil"></i>
           </span>
           <h4><strong>Graphic Art</strong></h4>
-          <p class="text-faded mb-0">I use the <b style="color: black;">Adobe Creative Suite</b> as well as <b style="color: black;">Inkscape</b> and <b style="color: black;">GIMP 2.0</b> for all sort of logo, user interface, and photography touch-up design.</p>
+          <p class="text-faded mb-0">I use the <b style="color: black;">Adobe Creative Suite</b> as well as <b style="color: black;">Inkscape</b> and <b style="color: black;">GIMP 2.0</b> for all sorts of logo, user interface, and photography touch-up design.</p>
         </div>
       </div>
     </div>
@@ -152,10 +150,18 @@
           <h2>Virtual Heroes, a Division of Applied Research Associates</h2>
           <h4 class="position-title">Associate Game Programmer</h4>
           <h4 class="position-dates">Nov 2020 - Present</h4>
+          <ul>
+            <li>Develop front-end and back-end solutions for large-scale serious games projects.</li>
+            <li>Lead VR and XR initiatives within projects and the studio as a whole.</li>
+            <li>Design and implement UI for multimedia projects.</li>
+            <li>Organize and participate in client meetings and product demos, attending industry conferences for customer outreach.</li>
+            <li>Spearhead the implementation of MetaSounds technology within new and existing projects.</li>
+            <li>Organize social events and maintain off-hour communications between coworkers for team cohesion.</li>
+          </ul>
         </div>
       </div>
 
-      <div class="row">
+      <div class="row run-off-the-screen">
         <div class="col-lg-3 mx-auto">
           <img class="company-logo" src="img/companies/Mythos.png">
         </div>
@@ -238,10 +244,24 @@
   </section>
 
   <!-- Shout out -->
-  <section class="content-section bg-primary text-white">
+  <section class="content-section bg-primary shout-out">
     <div class="container text-center">
+      <div class="content-section-heading">
+        <h3 class="text-secondary mb-0">Why is this here? Who has testimonials?</h3>
+        <h2 class="mb-5">Testimonials</h2>
+      </div>
       <i><h4 class="mb-4">Gal possess one of the most creative and analytical minds I have had the pleasure of working with. His passion and drive are only matched by the skillfulness and quality of his work. In my time knowing him as a coworker and friend, he has consistently gone above and beyond the call of duty to care for others, help make the world a better place, and further his business and that of those around him.</h4>
       <h5 class="mb-4">- Joshua Connor</h5></i>
+    </div>
+    <hr />
+    <div class="container text-center">
+      <i><h4 class="mb-4">Meh</h4>
+      <h5 class="mb-4">- Matt Fuller</h5></i>
+    </div>
+    <hr />
+    <div class="container text-center">
+      <i><h4 class="mb-4">Stop calling this number. I already told you I don't know you. No, I won't leave a review!</h4>
+      <h5 class="mb-4">- A close personal friend and mentor</h5></i>
     </div>
   </section>
 
@@ -257,21 +277,32 @@
 
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
           <div class="box-part text-center">
-            <img class="skills-images" src="img/skills/Unity.png">
+            <img class="skills-images" src="img/skills/UnrealEngine.png">
             <div class="text">
-              <span>I have experience developing various projects using the Unity Engine. My range of experience with the engine spans everything from design to publication. I am experienced with both the backend C# architechture of Unity and its front-facing design tools such as Shader Graph, Particle Graph, and ProBuilder.</span>
+              <span>I use Unreal Engine 5 on a daily basis. I have become quite skilled with Blueprints and native code and am often tasked with implementing UI widgets, MetaSounds, Blendspaces, Materials, and Niagara effects.</span>
             </div>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
           <div class="box-part text-center">
-            <img class="skills-images" src="img/skills/UnrealEngine.png">
+            <img class="skills-images" src="img/skills/Unity.png">
             <div class="text">
-              <span>Unreal has been my latest passion project. I am currently developing various projects using the Unreal Engine, both using C++ and the Blueprints scripting language. I have some exposure to Unreal's Virtual Reality tools as well.</span>
+              <span>My range of experience with Unity spans everything from design to publication. I am experienced with both the backend C# architechture and the front-facing design tools such as Shader Graph, Particle Graph, and ProBuilder.</span>
             </div>
           </div>
         </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+          <div class="box-part text-center">
+            <img class="skills-images" src="img/skills/Godot.png">
+            <div class="text">
+              <span>Godot is my newest passion project. Godot 4, in particular, reminds me of the earlier days of Unity and seems to be just the right mix of simplicity and power for smaller projects and web-hosted games.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"></div>
 
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
           <div class="box-part text-center">
@@ -295,6 +326,152 @@
   </section>
 
   <!-- Recent projects -->
+
+  <section id="the-world-that-lies-below" class="project-showcase-dark">
+    <div class="project-showcase-text">
+      <h2>The World That Lies Below</h2>
+      <p class="lead mb-10">
+        <b>Platform:</b> PCVR (Meta Quest 2, Pro, 3)
+        <b>Engine:</b> Unreal Engine 5 <br/>
+        <b>Genre:</b> Puzzle
+      </p>
+      <p class="lead mb-5">
+        The World That Lies Below is a semi-documentary-esque peek into the world of juvenile sea turtles and the many dangers that haunt them. It is a virtual reality puzzle experience that challanges the player to use their cosmic powers of planetary manipulation to help guide sea turtle hatchlings to the safety of the ocean waves. 
+      </p>
+      <iframe frameborder="0" src="https://itch.io/embed/1688106?linkback=true&amp;border_width=0&amp;bg_color=343A40&amp;fg_color=ffffff&amp;link_color=A41567&amp;border_color=666666" width="550" height="165"><a href="https://mythosinteractive.itch.io/the-world-that-lies-below">The World That Lies Below by Mythos Interactive</a></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/0jlr52B6uVk?si=HYMTsrkkjEtkI2Bb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <div class="row game-screenshots">
+      <div class="col-lg-2">
+        <img class="align-bottom game-capture" src="img/published-games/TheWorldThatLiesBelow/cover.png">
+      </div>
+      <div class="col-lg-2">
+        <img class="align-bottom game-capture" src="img/published-games/TheWorldThatLiesBelow/1.png">
+      </div>
+      <div class="col-lg-2">
+        <img class="align-bottom game-capture" src="img/published-games/TheWorldThatLiesBelow/2.png">
+      </div>
+      <div class="col-lg-2">
+        <img class="align-bottom game-capture" src="img/published-games/TheWorldThatLiesBelow/3.png">
+      </div>
+      <div class="col-lg-2">
+        <img class="align-bottom game-capture" src="img/published-games/TheWorldThatLiesBelow/4.png">
+      </div>
+      <div class="col-lg-2">
+        <img class="align-bottom game-capture" src="img/published-games/TheWorldThatLiesBelow/5.png">
+      </div>
+    </div>
+  </section>
+
+  <section id="to-the-last" class="project-showcase">
+    <div class="project-showcase-text">
+      <h2>To The Last</h2>
+      <p class="lead mb-10">
+        <b>Platform:</b> Windows
+        <b>Engine:</b> Unreal Engine 5 <br/>
+        <b>Genre:</b> First Person Shooter
+      </p>
+      <p class="lead mb-5">
+        In To The Last your dice are your biggest weapon. The Diceslinger is a fearsome cowboy who uses magical dice as ammunition. Reload your shotgun with dice and blast your demonic enemies right back to Hell, but be warned, if you run out of dice, it's Game Over. This game was created for the GMTK Game Jam 2022 in just 48 hours. Thank you for playing it!
+      </p>
+      <iframe frameborder="0" src="https://itch.io/embed/1621917?linkback=true&amp;border_width=0&amp;link_color=A41567" width="550" height="165"><a href="https://mythosinteractive.itch.io/to-the-last">The Last by Mythos Interactive</a></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/i5lZ3n0AuEI?si=llzKMhtx6WwKNJ7A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <div class="row game-screenshots">
+      <div class="col-lg-2">
+        <img class="align-bottom game-capture" src="img/published-games/ToTheLast/cover.png">
+      </div>
+      <div class="col-lg-2">
+        <img class="align-bottom game-capture" src="img/published-games/ToTheLast/1.png">
+      </div>
+      <div class="col-lg-2">
+        <img class="align-bottom game-capture" src="img/published-games/ToTheLast/2.png">
+      </div>
+      <div class="col-lg-2">
+        <img class="align-bottom game-capture" src="img/published-games/ToTheLast/3.png">
+      </div>
+      <div class="col-lg-2">
+        <img class="align-bottom game-capture" src="img/published-games/ToTheLast/4.png">
+      </div>
+      <div class="col-lg-2">
+        <img class="align-bottom game-capture" src="img/published-games/ToTheLast/5.png">
+      </div>
+    </div>
+  </section>
+
+  <section id="25-vikings" class="project-showcase-dark">
+    <div class="project-showcase-text">
+      <h2>25 Vikings</h2>
+      <p class="lead mb-10">
+        <b>Platform:</b> Windows
+        <b>Engine:</b> Unreal Engine 5 <br/>
+        <b>Genre:</b> Real-time Strategy
+      </p>
+      <p class="lead mb-5">
+        Fight to the bitter, icy end as you control a clan of desperate Vikings captured by the hordes of Helheim. Brave the cold and free your warrior brothers and sisters as you battle the enemies of the All Father. This game was made for Ludum Dare 50, a 72 hour game making competition.
+      </p>
+      <iframe frameborder="0" src="https://itch.io/embed/1470506?linkback=true&amp;border_width=0&amp;bg_color=343A40&amp;fg_color=ffffff&amp;link_color=A41567&amp;border_color=666666" width="550" height="165"><a href="https://mythosinteractive.itch.io/25-vikings">25 Vikings by Mythos Interactive, Plus2Studios, satchelquinn, WrGraban</a></iframe>
+    </div>
+    <div class="row game-screenshots">
+      <div class="col-lg-2">
+        <img class="align-bottom game-capture" src="img/published-games/25Vikings/cover.png">
+      </div>
+      <div class="col-lg-2">
+        <img class="align-bottom game-capture" src="img/published-games/25Vikings/1.png">
+      </div>
+      <div class="col-lg-2">
+        <img class="align-bottom game-capture" src="img/published-games/25Vikings/2.png">
+      </div>
+      <div class="col-lg-2">
+        <img class="align-bottom game-capture" src="img/published-games/25Vikings/3.png">
+      </div>
+      <div class="col-lg-2">
+        <img class="align-bottom game-capture" src="img/published-games/25Vikings/4.png">
+      </div>
+      <div class="col-lg-2">
+        <img class="align-bottom game-capture" src="img/published-games/25Vikings/5.png">
+      </div>
+    </div>
+  </section>
+
+  <section id="harolds-harrowing-heroics" class="project-showcase">
+    <div class="project-showcase-text">
+      <h2>Harold's Harrowing Heroics</h2>
+      <p class="lead mb-10">
+        <b>Platform:</b> PCVR (Meta Quest 2, Pro, 3, Valve Index)
+        <b>Engine:</b> Unreal Engine 4.27 <br/>
+        <b>Genre:</b> Action
+      </p>
+      <p class="lead mb-5">
+        In this quick-thinking action VR game, you'll find yourself trapped in a perilous and magical castle, surrounded by hordes of goo-like slime monsters! Be wary, for the ever-expanding slimes have taken over and you may quickly run out of space!
+      </p>
+      <p class="lead mb-5">
+        All other assets were created with in a 1 week timespan for the Epic MegaJam (2021)
+      </p>
+      <iframe frameborder="0" src="https://itch.io/embed/1184138?linkback=true&amp;border_width=0&amp;link_color=A41567" width="550" height="165"><a href="https://plus2studios.itch.io/harolds-harrowing-heroics">Harold's Harrowing Heroics by Plus2Studios, WrGraban, Ram, Chandlergray, Mythos Interactive</a></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/Ghwu2u5ytWU?si=ZcoCFMMS2Qwcx45h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <div class="row game-screenshots">
+      <div class="col-lg-2">
+        <img class="align-bottom game-capture" src="img/published-games/HaroldsHarrowingHeroics/cover.png">
+      </div>
+      <div class="col-lg-2">
+        <img class="align-bottom game-capture" src="img/published-games/HaroldsHarrowingHeroics/1.png">
+      </div>
+      <div class="col-lg-2">
+        <img class="align-bottom game-capture" src="img/published-games/HaroldsHarrowingHeroics/2.png">
+      </div>
+      <div class="col-lg-2">
+        <img class="align-bottom game-capture" src="img/published-games/HaroldsHarrowingHeroics/3.png">
+      </div>
+      <div class="col-lg-2">
+        <img class="align-bottom game-capture" src="img/published-games/HaroldsHarrowingHeroics/4.png">
+      </div>
+      <div class="col-lg-2">
+        <img class="align-bottom game-capture" src="img/published-games/HaroldsHarrowingHeroics/5.png">
+      </div>
+    </div>
+  </section>
 
   <section id="internal-medicine" class="project-showcase-dark">
     <div class="project-showcase-text">
@@ -664,7 +841,7 @@
           </a>
         </li>
       </ul>
-      <p class="text-muted mb-0">Gal Afik &copy; 2020</p>
+      <p class="text-muted mb-0">Gal Afik  &copy;2024</p>
     </div>
   </footer>
 

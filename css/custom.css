@@ -4,6 +4,7 @@
 
 .masthead, .callout {
   color: #fff;
+  text-shadow: 2px 2px black;
 }
 
 .parallax {
@@ -60,6 +61,11 @@
 .game-capture {
   max-width: 100%;
   padding-bottom: 1em;
+  transition: all 0.3s;
+}
+
+.game-capture:hover {
+  transform: scale(3);
 }
 
 .btn {
@@ -139,4 +145,108 @@ p {
 #video {
   padding: 0em;
   margin: 0em;
+}
+
+.shout-out h4{
+  color: white;
+}
+
+
+/*pulsing text*/
+@keyframes pulse {
+    from {
+        transform: scale(0.85);
+        opacity: 0.5;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }   
+}
+.pulse-text {
+    animation: pulse 1s infinite alternate;
+}
+
+/*scroll text*/
+@keyframes scroll-anim {
+    0% {
+        content: "Scroll down for more!";
+    }
+    1% {
+        content: "You're scrolling for more. Good job!";
+    }   
+}
+.scroll-text:after {
+    animation-name: scroll-anim;
+    animation-duration: 1ms;
+    animation-direction: alternate;
+    animation-timeline: scroll(block nearest);
+    content: "";
+}
+
+/*insane text*/
+@keyframes why-would-anyone-do-this {
+    0% {
+        transform: rotate(0deg) scale(1.0);
+        opacity: 1;
+    }
+    8% {
+        transform: rotate(0deg) scale(1.0);
+        opacity: 1;
+    }
+    13% {
+        transform: rotate(-140deg) scale(0);
+        opacity: 0;
+    }   
+}
+.insane-text {
+    animation-name: why-would-anyone-do-this;
+    animation-duration: 1ms;
+    animation-direction: alternate;
+    animation-timeline: scroll(block nearest);
+}
+
+.service-icon {
+  transition: all 0.3s;
+}
+
+.service-icon:hover {
+  transform: scale(1.2);
+}
+
+.shrink:hover {
+  transform: scale(0.8);
+}
+
+
+/*runoff animation*/
+@keyframes run-off-the-screen {
+    0% {
+        transform: translateX(0px);
+    }
+    20% {
+        transform: translateX(0px);
+    }
+    22% {
+        transform: translateX(10000px);
+    }
+}
+.run-off-the-screen {
+    animation-name: run-off-the-screen;
+    animation-duration: 1ms;
+    animation-direction: alternate;
+    animation-timeline: scroll(block nearest);
+}
+
+
+@keyframes broken-anim {
+  0% {
+    transform: scale(1.0);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+.you-broke-it {
+    animation: broken-anim 2s ease-in-out forwards;
 }
