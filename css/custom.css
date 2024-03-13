@@ -250,3 +250,7 @@ p {
 .you-broke-it {
     animation: broken-anim 2s ease-in-out forwards;
 }
+
+.mythos-link {
+  background-color: black;
+}

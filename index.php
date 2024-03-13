@@ -52,6 +52,9 @@
       <li class="sidebar-nav-item">
         <a href="https://www.linkedin.com/in/galafik/" target="_blank">My LinkedIn</a>
       </li>
+      <li class="sidebar-nav-item mythos-link">
+        <a href="https://mythosinteractive.itch.io/" target="_blank">Mythos Interactive</a>
+      </li>
     </ul>
   </nav>
 
