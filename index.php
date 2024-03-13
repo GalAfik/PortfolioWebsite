@@ -81,6 +81,18 @@
     </div>
   </section>
 
+  <!-- Video Reel -->
+  <section class="content-section bg-black" id="video">
+    <div class="container center">
+      <div class="row">
+        <video width="1140" height="640" controls>
+          <source src="MythosInteractiveTrailer720p.mp4" type="video/mp4">
+          Oops! Something went wrong loading my awesome video. Please reload the page or try another browser.
+        </video>
+      </div>
+    </div>
+  </section>
+
   <!-- Skills -->
   <section class="content-section bg-primary text-white text-center" id="skills">
     <div class="container">
@@ -102,7 +114,7 @@
             <i class="icon-game-controller"></i>
           </span>
           <h4><strong>Game Design</strong></h4>
-          <p class="text-faded mb-0">I started making games in high school and have now founded <b><a href="http://www.mythosinteractive.net" target="_blank" style="color: black;">Mythos Interactive</a></b>, an indie studio specializing in GameMaker Studio, Unity, and Unreal. Check out our <b><a class="js-scroll-trigger" href="#internal-medicine" style="color: black;">latest game</a></b> below!</p>
+          <p class="text-faded mb-0">I started making games in high school and have now founded <b><a href="http://www.mythosinteractive.net" target="_blank" style="color: black;">Mythos Interactive</a></b>, an indie studio specializing in GameMaker Studio, Unity, and Unreal. Check out our <b><a class="js-scroll-trigger" href="https://mythosinteractive.itch.io" style="color: black;">latest game</a></b> below!</p>
         </div>
 
         <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
@@ -134,6 +146,17 @@
 
       <div class="row">
         <div class="col-lg-3 mx-auto">
+          <img class="company-logo" src="img/companies/VirtualHeroes_ARA.png">
+        </div>
+        <div class="col-lg-9 mx-auto">
+          <h2>Virtual Heroes, a Division of Applied Research Associates</h2>
+          <h4 class="position-title">Associate Game Programmer</h4>
+          <h4 class="position-dates">Nov 2020 - Present</h4>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-3 mx-auto">
           <img class="company-logo" src="img/companies/Mythos.png">
         </div>
         <div class="col-lg-9 mx-auto">
@@ -155,7 +178,7 @@
         <div class="col-lg-9 mx-auto">
           <h2>Deutsche Bank</h2>
           <h4 class="position-title">Software Engineer</h4>
-          <h4 class="position-dates">Feb 2019 - Present</h4>
+          <h4 class="position-dates">Feb 2019 - Nov 2020</h4>
           <ul>
             <li>Develop and maintain SQL Server Integration services that upkeep critical financial database systems.</li>
             <li>Enhance and maintain version-control procedures and pipelines for international teams.</li>
@@ -392,7 +415,7 @@
       <iframe frameborder="0" src="https://itch.io/embed/620604?linkback=true&amp;border_width=0&amp;link_color=A41567" width="550" height="165"><a href="https://mythosinteractive.itch.io/terminal-charge">Terminal Charge by Mythos Interactive</a></iframe>
     </div>
     <div class="row game-screenshots">
-      <div class="col-lg-2">
+      <div class="col-lg-2 col-sm-6">
         <img class="align-bottom game-capture" src="img/published-games/TerminalCharge/cover.png">
       </div>
       <div class="col-lg-2">

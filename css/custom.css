@@ -87,6 +87,10 @@
   max-width: 60%;
 }
 
+.project-showcase-text iframe {
+  max-width: 100%;
+}
+
 .project-showcase-dark .btn {
   background-color: #A41567;
   color: #fff;
@@ -126,4 +130,13 @@ p {
 .position-dates {
   color: #b6b6b6;
   float: right;
+}
+
+.bg-black {
+  background-color: #000;
+}
+
+#video {
+  padding: 0em;
+  margin: 0em;
 }
