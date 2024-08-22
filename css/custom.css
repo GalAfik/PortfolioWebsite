@@ -61,11 +61,6 @@
 .game-capture {
   max-width: 100%;
   padding-bottom: 1em;
-  transition: all 0.3s;
-}
-
-.game-capture:hover {
-  transform: scale(3);
 }
 
 .btn {

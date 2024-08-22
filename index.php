@@ -79,7 +79,7 @@
       </div>
       <div class="row">
         <div class="col-lg-10 mx-auto">
-          <p class="lead mb-5">Hi there! I'm Gal. I'm a game developer. I also do software, web dev, graphic design, and hardware tinkering. I am certified in <b>C++, Java, and Python</b> and have experience with multiple other langauges. I love acquiring new skills and learning new toolsets! Please check out my professional experience and latest projects below.</p>
+          <p class="lead mb-5">Welcome to my portfolio! I'm Gal Phillip Afik, a passionate game developer with a love for crafting immersive experiences. Here, you'll find a showcase of my work, from intricate VR simulations to indie game projects. Whether you're here to explore innovative gameplay mechanics, admire creative level designs, or simply dive into unique worlds, I invite you to check out and play the games listed at the bottom of the page. Your feedback and enjoyment mean the world to me—thank you for stopping by!</p>
         </div>
       </div>
     </div>
@@ -151,15 +151,16 @@
         </div>
         <div class="col-lg-9 mx-auto">
           <h2>Virtual Heroes, a Division of Applied Research Associates</h2>
-          <h4 class="position-title">Associate Game Programmer</h4>
-          <h4 class="position-dates">Nov 2020 - Present</h4>
+          <h4 class="position-title">Staff Serious Games Developer</h4>
+          <h4 class="position-dates">Nov 2020 - July 2024</h4>
           <ul>
-            <li>Develop front-end and back-end solutions for large-scale serious games projects.</li>
-            <li>Lead VR and XR initiatives within projects and the studio as a whole.</li>
-            <li>Design and implement UI for multimedia projects.</li>
-            <li>Organize and participate in client meetings and product demos, attending industry conferences for customer outreach.</li>
-            <li>Spearhead the implementation of MetaSounds technology within new and existing projects.</li>
-            <li>Organize social events and maintain off-hour communications between coworkers for team cohesion.</li>
+            <li>Developed VR/MR game-based training and educational simulations that target public and private sector clients.</li>
+            <li>Led projects using Unreal Engine, specializing in Blueprints and native C++ development.</li>
+            <li>Collaborated closely with art and design teams to iterate on gameplay features and prototypes.</li>
+            <li>Designed and implemented intuitive UI/UX features and enhanced NPC interactions.</li>
+            <li>Spearheaded the integration of MetaSounds technology for enhanced audio realism.</li>
+            <li>Facilitated client meetings, product demos, and attended industry conferences for customer outreach.</li>
+            <li>Promoted team cohesion through organization of social events and off-hour communications.</li>
           </ul>
         </div>
       </div>
@@ -173,9 +174,11 @@
           <h4 class="position-title">Founder</h4>
           <h4 class="position-dates">Mar 2019 - Present</h4>
           <ul>
-            <li>Developed games that received the Editor’s Choice award from Simmer.io and placed 3rd in Brackeys Game Jam.</li>
-            <li>Design and implement user-interfaces, sound systems, graphics renderers, and gameplay mechanics.</li>
-            <li>Manage and lead a group of designers, producers, and testers in creating small-scale projects.</li>
+            <li>Founded and operate a studio specializing in 2D and 3D game development using Unity and Unreal Engine.</li>
+            <li>Received Editor’s Choice accolade on Simmer.io for innovative game designs.</li>
+            <li>Directed the design and implementation of UI/UX, audio, assets, and gameplay mechanics.</li>
+            <li>Managed a small multidisciplinary team including designers, producers, and testers.</li>
+            <li>Led post-release marketing campaigns and community engagement efforts.</li>
           </ul>
         </div>
       </div>
@@ -189,11 +192,11 @@
           <h4 class="position-title">Software Engineer</h4>
           <h4 class="position-dates">Feb 2019 - Nov 2020</h4>
           <ul>
-            <li>Develop and maintain SQL Server Integration services that upkeep critical financial database systems.</li>
-            <li>Enhance and maintain version-control procedures and pipelines for international teams.</li>
-            <li>As Scrum Master, organize ceremonies for an international team based out of the US, London, and India.</li>
-            <li>As Technical Information Security Officer, oversee security-related approvals and inspections.</li>
-            <li>Organize team-engagement events and activities, including a global hackathon event for over 200 participants.</li>
+            <li>Developed and maintained SQL Server Integration Services for critical financial Oracle databases.</li>
+            <li>Managed version control procedures and pipelines for international teams.</li>
+            <li>As Scrum Master, led sprint rituals in an agile environment for an international team based out of the US, London, and India.</li>
+            <li>As Technical Information Security Officer, oversaw security-related approvals and operations for projects.</li>
+            <li>Organized team engagement events including a global hackathon with 200+ participants.</li>
           </ul>
         </div>
       </div>
@@ -207,8 +210,8 @@
           <h4 class="position-title">Campus Coordinator</h4>
           <h4 class="position-dates">Sep 2018 - Feb 2019</h4>
           <ul>
-            <li>Instructed students (K-8) in STEM-based programs including Java, Python, and Game Design.</li>
-            <li>Supervised 15 instructors and over 30 students on a daily basis with a focus on campus efficiency and safety.</li>
+            <li>Instructed STEM-based programs for K-8 students, focusing on game design, programming, and robotics.</li>
+            <li>Supervised daily operations, ensuring campus efficiency and student safety.</li>
           </ul>
         </div>
       </div>
@@ -222,9 +225,9 @@
           <h4 class="position-title">Associate Developer</h4>
           <h4 class="position-dates">May 2016 - May 2018</h4>
           <ul>
-            <li>Developed various internal Java and PHP applications that integrated with a custom NoSQL (json) database including a database management system that controlled Smithsonian Inst. proprietary artifact records data.</li>
-            <li>Created a fully customizable interactive education and training center for site users and project volunteers.</li>
-            <li>Designed and implemented content management interfaces for interactive museum exhibits.  </li>
+            <li>Developed a NoSQL database management system that controlled Smithsonian Institution proprietary artifact records data.</li>
+            <li>Created a configurable education and training center that allows site users to view richly formatted multimedia courses and participate in assessments and online group projects.</li>
+            <li>Designed content management interfaces for museum exhibits, enhancing visitor experiences.</li>
           </ul>
         </div>
       </div>
@@ -258,8 +261,11 @@
     </div>
     <hr />
     <div class="container text-center">
-      <i><h4 class="mb-4">Meh</h4>
-      <h5 class="mb-4">- Matt Fuller</h5></i>
+      <i><h4 class="mb-4">Gal is a hard worker and has shown great passion in his work. He tackles difficult challenges and
+      thinks outside of the box when conventional solutions do not work. Gal also excels at conferences
+      when talking to other developers and presenting to customers. I relied on Gal’s VR expertise to help
+      design and implement a solid user experience for his VR projects.</h4>
+      <h5 class="mb-4">- Oliver Gray</h5></i>
     </div>
     <hr />
     <div class="container text-center">
@@ -329,6 +335,79 @@
   </section>
 
   <!-- Recent projects -->
+
+  <section id="the-world-that-lies-below" class="project-showcase-dark">
+    <div class="project-showcase-text">
+      <h2>Hefty Heights</h2>
+      <p class="lead mb-10">
+        <b>Platform:</b> Windows, WebGL
+        <b>Engine:</b> Unity <br/>
+        <b>Genre:</b> Puzzle, Arcade, Casual
+      </p>
+      <p class="lead mb-5">
+        Test your stacking skills and precision as you carefully balance everyday objects to hit the perfect weight. Every move counts in this thrilling challenge of balance and strategy!
+
+        This project was originally created during the GMTK 2024 game jam in just under 96 hours. The game was not entered into the jam, but remains in the state it was in during the jam with no major alterations.
+      </p>
+      <iframe frameborder="0" src="https://itch.io/embed/2912120?linkback=true&amp;border_width=0&amp;bg_color=343A40&amp;fg_color=ffffff&amp;link_color=A41567&amp;border_color=666666" width="550" height="165"><a href="https://mythosinteractive.itch.io/hefty-heights">Hefty Heights by Mythos Interactive</a></iframe>
+    </div>
+    <div class="row game-screenshots">
+      <div class="col-lg-2">
+        <img class="align-bottom game-capture" src="img/published-games/HeftyHeights/cover.png">
+      </div>
+      <div class="col-lg-2">
+        <img class="align-bottom game-capture" src="img/published-games/HeftyHeights/1.png">
+      </div>
+      <div class="col-lg-2">
+        <img class="align-bottom game-capture" src="img/published-games/HeftyHeights/2.png">
+      </div>
+      <div class="col-lg-2">
+        <img class="align-bottom game-capture" src="img/published-games/HeftyHeights/3.png">
+      </div>
+      <div class="col-lg-2">
+        <img class="align-bottom game-capture" src="img/published-games/HeftyHeights/4.png">
+      </div>
+      <div class="col-lg-2">
+        <img class="align-bottom game-capture" src="img/published-games/HeftyHeights/5.png">
+      </div>
+    </div>
+  </section>
+
+  <section id="to-the-last" class="project-showcase">
+    <div class="project-showcase-text">
+      <h2>Virtual Heroes: VR-TAK</h2>
+      <p class="lead mb-10">
+        <b>Platform:</b> Windows, Meta Quest 2/3/Pro, Valve Index
+        <b>Engine:</b> Unreal Engine 4/5 <br/>
+        <b>Genre:</b> First Person Simulation
+      </p>
+      <p class="lead mb-5">
+        The Virtual Tactical Assault Kit or Virtual Team Awareness Kit (VR-TAK) is a multiuser Virtual Reality tool for mission planning, rehearsal, and situational awareness. VR-TAK has received regular feature updates since 2020 that have been deployed to tens of thousands of users in the TAK ecosystem. As part of the Virtual Heroes team, I contributed to the development and maintenance of several plugins and core features and was largely
+        responsible for the continued development of VR and MR features for this project.
+      </p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/HzuvcLc7ZrY?si=3qZX7JDjKDQQhTxy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <div class="row game-screenshots">
+      <div class="col-lg-2">
+        <img class="align-bottom game-capture" src="img/published-games/VRTAK/cover.png">
+      </div>
+      <div class="col-lg-2">
+        <img class="align-bottom game-capture" src="img/published-games/VRTAK/1.png">
+      </div>
+      <div class="col-lg-2">
+        <img class="align-bottom game-capture" src="img/published-games/VRTAK/2.png">
+      </div>
+      <div class="col-lg-2">
+        <img class="align-bottom game-capture" src="img/published-games/VRTAK/3.png">
+      </div>
+      <div class="col-lg-2">
+        <img class="align-bottom game-capture" src="img/published-games/VRTAK/4.png">
+      </div>
+      <div class="col-lg-2">
+        <img class="align-bottom game-capture" src="img/published-games/VRTAK/5.png">
+      </div>
+    </div>
+  </section>
 
   <section id="the-world-that-lies-below" class="project-showcase-dark">
     <div class="project-showcase-text">
