@@ -65,7 +65,7 @@
       <h3 class="mb-5">
         <em>Software Engineer | Game Developer</em>
       </h3>
-      <a class="btn btn-primary btn-xl" href="./resources/resume/GalAfik.pdf" target="_blank">My Resume</a>
+      <a class="btn btn-primary btn-xl" href="./resources/resume/Gal_Phillip_Afik_Gameplay_Engineer_Resume.pdf" target="_blank">My Resume</a>
       <h3 class="pulse-text"><div class="scroll-text"></div></h3>
     </div>
   </header>
