@@ -336,7 +336,44 @@
 
   <!-- Recent projects -->
 
-  <section id="the-world-that-lies-below" class="project-showcase-dark">
+  <section id="sword-vs-squash" class="project-showcase">
+    <div class="project-showcase-text">
+      <h2>Sword vs Squash</h2>
+      <p class="lead mb-10">
+        <b>Platform:</b> Windows, WebGL2.0
+        <b>Engine:</b> Unity 6 <br/>
+        <b>Genre:</b> Action/Arcade, Physics
+      </p>
+      <p class="lead mb-5">
+        Soar through a charming medieval village as a mysteriously animated sword with an inexplicable grudge against glowing, magical pumpkins. Master the art of aerial combat and destroy enchanted gourds before time runs out!
+        Why are you a sword? What's the deal with these pumpkins? The answers await those who explore this whimsical world... and for the truly adventurous, a secret lies hidden deep in the icy mountains.
+        Created for the Pirate Software Game Jam 16 in under 4 days. May your aim be true!
+      </p>
+      <iframe frameborder="0" src="https://itch.io/embed/3288576?link_color=faa75b" width="552" height="167"><a href="https://mythosinteractive.itch.io/sword-vs-squash">Sword vs Squash by Mythos Interactive</a></iframe>
+    </div>
+    <div class="row game-screenshots">
+      <div class="col-lg-2">
+        <img class="align-bottom game-capture" src="img/published-games/SwordvsSquash/cover.png">
+      </div>
+      <div class="col-lg-2">
+        <img class="align-bottom game-capture" src="img/published-games/SwordvsSquash/1.png">
+      </div>
+      <div class="col-lg-2">
+        <img class="align-bottom game-capture" src="img/published-games/SwordvsSquash/2.png">
+      </div>
+      <div class="col-lg-2">
+        <img class="align-bottom game-capture" src="img/published-games/SwordvsSquash/3.png">
+      </div>
+      <div class="col-lg-2">
+        <img class="align-bottom game-capture" src="img/published-games/SwordvsSquash/4.png">
+      </div>
+      <div class="col-lg-2">
+        <img class="align-bottom game-capture" src="img/published-games/SwordvsSquash/5.png">
+      </div>
+    </div>
+  </section>
+
+  <section id="hefty-heights" class="project-showcase-dark">
     <div class="project-showcase-text">
       <h2>Hefty Heights</h2>
       <p class="lead mb-10">
