@@ -422,7 +422,7 @@
         The Virtual Tactical Assault Kit or Virtual Team Awareness Kit (VR-TAK) is a multiuser Virtual Reality tool for mission planning, rehearsal, and situational awareness. VR-TAK has received regular feature updates since 2020 that have been deployed to tens of thousands of users in the TAK ecosystem. As part of the Virtual Heroes team, I contributed to the development and maintenance of several plugins and core features and was largely
         responsible for the continued development of VR and MR features for this project.
       </p>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/HzuvcLc7ZrY?si=3qZX7JDjKDQQhTxy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/eYujCvT1w04?si=nj803UyBHmoh8HPC&amp;start=56" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
     <div class="row game-screenshots">
       <div class="col-lg-2">
